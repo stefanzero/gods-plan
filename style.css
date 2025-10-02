@@ -4,11 +4,12 @@
   --ink: #142a0f;
   --muted: #475569;
   --accent: #334355;
-  --background: rgb(0, 217, 255);
+  --background: rgba(15, 239, 239, 0.862);
 }
 body {
   margin: 0;
   background: var(--background);
+  
 }
 
  header, main, footer {
