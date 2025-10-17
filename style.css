@@ -16,8 +16,8 @@
   --fs-2: clamp(1.1rem, 2.5vw, 2.5rem); /* h2 */
   /*--fs-3: 1.125rem; */
   --fs-3: clamp(1.1rem, 2.5vw, 2rem); /* h2 */
-  --fs-4: clamp(1.1rem, 2.5vw, 1.5rem);
-  --fs-5: clamp(1.5rem, 2.5vw, 1.8rem);
+  --fs-4: clamp(1.1rem, 2.5vw, 1.2rem);
+  --fs-5: clamp(1.2rem, 2.5vw, 1.3rem);
   --fs-base: 1rem;
   --lh: 1.65;
 }
@@ -57,6 +57,11 @@ main {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 2rem 1.5rem;
+}
+
+figure {
+  margin: 0;
+  padding: 0 0.5rem;
 }
 
 article {
