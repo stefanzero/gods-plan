@@ -57,6 +57,11 @@ main {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 2rem 1.5rem;
+  /* 
+  this defines the width of the container to be 100cqw
+  https://developer.mozilla.org/en-US/docs/Web/CSS/container
+  */
+  container-type: inline-size;
 }
 
 figure {
@@ -68,7 +73,12 @@ article {
   display: flex;
   width: max-content;
   flex-direction: column;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  /*
+  set the margin of the text to align with the edge of the figure
+  as small window widths, and gradually increase as the window gets bigger
+  */
+  margin-left: clamp(0.6rem, calc(-5rem + 20cqw), 10rem);
   font-size: var(--fs-4);
 }
 
