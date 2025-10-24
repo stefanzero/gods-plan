@@ -78,7 +78,7 @@ article {
   set the margin of the text to align with the edge of the figure
   as small window widths, and gradually increase as the window gets bigger
   */
-  margin-left: clamp(0.6rem, calc(-5rem + 20cqw), 10rem);
+  margin-left: clamp(0.7rem, calc(-5rem + 20cqw), 5rem);
   font-size: var(--fs-4);
 }
 
